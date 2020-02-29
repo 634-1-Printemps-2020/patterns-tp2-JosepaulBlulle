@@ -52,4 +52,10 @@ public class Statistics {
     this.totalNumberMoves = totalNumberMoves;
   }
 
+  public String toString() {
+    return "Moyenne pour gagner = " + averageToWin +
+            "\nLe moins de lancer = " + fewerMovesToWin +
+            "\nLe plus de lancer = " + mostMovesToWin +
+            "\nTotal des lancers = " + totalNumberMoves;
+  }
 }
